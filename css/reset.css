@@ -1,11 +1,26 @@
-/* CSS Reset */
+/* Reset default margins, paddings, and box-sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 100%;
-    font-weight: normal;
-    border: none;
-    outline: none;
-    background: none;
+}
+
+/* Reset table default spacing */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reset list styles */
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: Arial, sans-serif;
 }
